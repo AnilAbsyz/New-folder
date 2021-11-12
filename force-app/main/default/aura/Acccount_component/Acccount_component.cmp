@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	 <lightning:card  title="ABSYZ--Team">
+       <lightning:button variant="brand" label="Hi ABSYZ" title="Base action" onclick="{! c.handleClick }"/>
+
+    <!-- Neutral variant (default) -->
+    <lightning:button variant="brand" label="Hello ABSYZ" title="Hello ABSYZ" onclick="{! c.handleClick }"/>
+
+    <!-- Brand variant: Identifies the primary action in a group of buttons -->
+    <lightning:button variant="brand" label="ABSYZ HYD" title="Brand action" onclick="{! c.handleClick }" />
+
+
+    </lightning:card>
+</aura:component>

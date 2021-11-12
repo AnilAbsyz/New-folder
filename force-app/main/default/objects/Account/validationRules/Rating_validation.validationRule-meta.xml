@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+ ISPICKVAL(Industry , &apos;Agriculture&apos;),
+ NOT(ISPICKVAL(Rating , &apos;Cold&apos;))) , True, False)</errorConditionFormula>
+    <errorDisplayField>Rating</errorDisplayField>
+    <errorMessage>When industry is agriculture then rating should be Cold</errorMessage>
+</ValidationRule>
