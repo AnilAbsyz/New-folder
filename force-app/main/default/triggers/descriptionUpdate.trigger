@@ -7,7 +7,7 @@ trigger descriptionUpdate on Account (Before insert,Before update) {
                 acc.AccountNumber = '2021';
                 accList.add(acc);
             }
-            
+            system.debug('accList'+accList);
         }
         
         
