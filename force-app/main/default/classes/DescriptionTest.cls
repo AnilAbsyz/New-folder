@@ -6,8 +6,7 @@ public class DescriptionTest {
         acc.Industry='Agriculture';
         acc.Rating ='Cold';
         insert acc;  
- system.debug('lead'+acc);
- system.debug('sadwika');
+ system.debug('account'+acc);
 
     }
 
