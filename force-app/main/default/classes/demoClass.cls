@@ -5,6 +5,6 @@ public class demoClass {
     {
         s='welcome to salesforce';
         system.debug(s);
-        system.debug('hh');
+        system.debug('ddemoo');
     }
 }
