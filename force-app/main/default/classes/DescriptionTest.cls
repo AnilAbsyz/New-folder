@@ -7,6 +7,7 @@ public class DescriptionTest {
         acc.Rating ='Cold';
         insert acc;  
  system.debug('lead'+acc);
+ system.debug('sadwika');
 
     }
 
